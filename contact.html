@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="body">
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <span class="icon">&lt;/&gt;</span>
+                <div class="text">
+                    <h1>مركز التدريب</h1>
+                    <p>تعليم البرمجة وتقنية المعلومات</p>
+                </div>
+            </div>
+            <nav class="nav" id="navMenu">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="courses.html">الكورسات</a></li>
+                    <li><a href="Trainers.html">المدربون</a></li>
+                    <li><a href="contact.html" class="active">تواصل معنا</a></li>
+                </ul>
+            </nav>
+             <div class="user-area">
+                <a href="register.html" class="register-btn" id="authLink">سجل الان</a>
+             </div>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+<section class="contact-section">
+    <h1 class="title">تواصل معنا</h1>
+    <p class="subtitle">يسعدنا تواصلك معنا - اترك رسالتك وسيتم الرد عليك في اقرب وقت </p>
+    <div class="contact-grid">
+        <!-- صندوق البيانات -->
+         <div class="info-box">
+            <h3>معلومات التواصل</h3>
+            <p>العنوان : القاهره - مصر</p>
+            <p>الهاتف : 0100000000</p>
+            <p>البريد :support@academy.com</p>
+            <div class="socials">
+                <span>Facebook</span>
+                <span>WhatsApp</span>
+                <span>Telegram</span>
+            </div>
+         </div>
+         <!-- نموذج الارسال -->
+          <form id="contactForm" class="form-box">
+            <label>الاسم الكامل *</label>
+            <input type="text" id="name">
+            <label>البريد الالكتروني *</label>
+            <input type="email" id="email">
+            <label>عنوان الرسالة *</label>
+            <input type="text" id="subject">
+            <label>نص الرسالة *</label>
+            <textarea id="message" rows="5"></textarea>
+            <button type="submit" class="btn">أرسال الرسالة</button>
+          </form>
+    </div>
+</section>
+<script src="co.js"></script>
+</body>
+</html>

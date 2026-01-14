@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+     <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="body">
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <span class="icon">&lt;/&gt;</span>
+                <div class="text">
+                    <h1>مركز التدريب</h1>
+                    <p>تعليم البرمجة وتقنية المعلومات</p>
+                </div>
+            </div>
+            <nav class="nav" id="navMenu">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="courses.html">الكورسات</a></li>
+                    <li><a href="Trainers.html">المدربون</a></li>
+                    <!-- <li><a href="Registration.html">تسجيل كورسات </a></li> -->
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </nav>
+            <!-- <a href="Registration.html" class="register-btn">سجل الان</a> -->
+            <!-- <div class="menu-toggle" id="menuToggle"></div> -->
+             <div class="user-area">
+                <a href="register.html" class="register-btn" id="authLink">سجل الان</a>
+             </div>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="image.1/Gemini_Generated_Image_or6xy8or6xy8or6x.png" alt="User">
+            <h2 id="userName">اسم المستخدم</h2>
+            <p id="userEmail">email@example.com</p>
+        </div>
+        <div class="profile-courses">
+            <h3>كورساتي</h3>
+            <div class="course-card">
+                <h4>Frontend Development</h4>
+                <span class="status active">قيد الدراسة</span>
+            </div>
+            <div class="course-card">
+                <h4>JavaScript Basics</h4>
+                <span class="status done">مكتمل</span>
+            </div>
+        </div>
+        <button id="logoutBtn">تسجيل الخروج</button>
+    </div>
+    <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+   <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/all.min.js"></script>
+   <script src="profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+     <link rel="stylesheet" href="re.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="body">
+ <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <span class="icon">&lt;/&gt;</span>
+                <div class="text">
+                    <h1>مركز التدريب</h1>
+                    <p>تعليم البرمجة وتقنية المعلومات</p>
+                </div>
+            </div>
+            <nav class="nav" id="navMenu">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="courses.html">الكورسات</a></li>
+                    <li><a href="Trainers.html">المدربون</a></li>
+                    <!-- <li><a href="Registration.html">تسجيل كورسات </a></li> -->
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </nav>
+            <!-- <a href="Registration.html" class="register-btn">سجل الان</a> -->
+            <!-- <div class="menu-toggle" id="menuToggle"></div> -->
+             <div class="user-area">
+                <a href="register.html" class="register-btn" id="authLink">سجل الان</a>
+             </div>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+<section class="register-section">
+    <h1 class="title">التسجيل في الكورسات</h1>
+    <p class="subtitle">سجل بياناتك وابدأ رحلتك التعليمية معانا</p>
+    <div class="register-card">
+        <div class="course-box">
+            <img src="image.1/Gemini_Generated_Image_60qil460qil460qi (1).png" class="course-img">
+            <div class="course-info">
+                <h3>كورس Backend بأستخدام Node.js</h3>
+                <p>مده الكورس : شهرين</p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                    <span>React</span>
+                </div>
+            </div>
+        </div>
+        <form class="form" id="registerForm">
+            <label>الاسم كامل *</label>
+            <input type="text" id="name" required>
+            <label>البريد الالكتروني *</label>
+            <input type="email" id="email" placeholder="yourname@email.com" required>
+            <label>رقم الهاتف *</label>
+            <input type="tel" id="phone" required>
+            <label>اختر طريقة الدفع *</label>
+            <select id="payment" required>
+                <option value="">_ اختر _</option>
+                <option value="card">كارت الاتمان</option>
+                <option value="vodafone">vodafone cash</option>
+            </select>
+            <button type="submit" class="btn">تسجيل الان</button>
+        </form>
+    </div>
+</section>
+<script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+   <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/all.min.js"></script>
+<script src="re.js"></script>
+</body>
+</html>

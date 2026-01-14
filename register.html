@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أنشاء حساب</title>
+     <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body class="body">
+  <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <span class="icon">&lt;/&gt;</span>
+                <div class="text">
+                    <h1>مركز التدريب</h1>
+                    <p>تعليم البرمجة وتقنية المعلومات</p>
+                </div>
+            </div>
+            <nav class="nav" id="navMenu">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="courses.html">الكورسات</a></li>
+                    <li><a href="Trainers.html">المدربون</a></li>
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </nav>
+             <div class="user-area">
+                <a href="register.html" class="register-btn active" id="authLink">سجل الان</a>
+             </div>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <div class="regidter-container">
+        <h2>انشاء حساب جديد</h2>
+        <form id="registerForm">
+            <input type="text" id="name" placeholder="الاسم الكامل" required>
+            <input type="email" id="email" placeholder="البريد الالكتروني" required>
+            <input type="password" id="password" placeholder="كلمة المرو" required>
+            <button type="submit">تسجيل</button>
+        </form>
+    </div>
+    <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+   <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/all.min.js"></script>
+    <script src="register.js"></script>
+</body>
+</html>

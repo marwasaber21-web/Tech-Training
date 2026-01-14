@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainers</title>
+    <link rel="stylesheet" href="Trainers.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="body">
+ <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <span class="icon">&lt;/&gt;</span>
+                <div class="text">
+                    <h1>مركز التدريب</h1>
+                    <p>تعليم البرمجة وتقنية المعلومات</p>
+                </div>
+            </div>
+            <nav class="nav" id="navMenu">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="courses.html">الكورسات</a></li>
+                    <li><a href="Trainers.html" class="active">المدربون</a></li>
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </nav>
+            <!-- <a href="Registration.html" class="register-btn">سجل الان</a> -->
+            <!-- <div class="menu-toggle" id="menuToggle"></div> -->
+             <div class="user-area">
+                <a href="register.html" class="register-btn" id="authLink">سجل الان</a>
+             </div>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+<section>
+    <div class="text4">
+        <h2>فريق المدربون</h2>
+        <p>نخبة متخصصة من الخبراء والمعلمين المحترفين</p>
+    </div>
+    <div class="filters">
+        <!-- <div class="filter-btn"> -->
+           <button class="filter-btn active">الكل</button>
+           <button class="filter-btn">Frontend</button>
+           <button class="filter-btn">Backend</button>
+           <button class="filter-btn">Kids</button>
+           <button class="filter-btn">AI</button>
+   
+        <!-- </div> -->
+    </div>    
+</section>
+<div class="text5">
+   <p class="count">عدد المدربين :<span id="trainers-count"></span></p>
+</div>
+<section class="trainers-grid">
+    <!-- <div class="container"> -->
+        <div class="trainer-card" data-category="Frontend">
+           <img src="image.1/Gemini_Generated_Image_ftrffaftrffaftrf.png" alt="">
+           <h3>م. marwa</h3>
+            <span class="role">Senior Frontend Developer</span>
+            <p> خبرة 8 سنوات في تطوير واجهات المستخدم و React</p>
+           <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span> 
+                <span>JS</span>
+                <span>React</span>
+           </div>
+       </div>
+       <div class="trainer-card" data-category="Backend">
+           <img src="image.1/Gemini_Generated_Image_60qil460qil460qi (1).png" alt="">
+           <h3>م. محمد عبدالله</h3>
+           <span class="role">Backend Developer</span>
+           <p>متخصص في Python - Django - APIs</p>
+           <div class="tags">
+               <span>Python</span>
+               <span>Django</span>
+                <span>Databases</span>
+            </div>
+        </div>
+        <div class="trainer-card" data-category="AI">
+            <img src="image.1/Gemini_Generated_Image_5k2g995k2g995k2g.png" alt="">
+            <h3>د. ريم أشرف</h3>
+            <span class="role">AI & Machine Learing Expert</span>
+            <p>باحثة متخصصة فى الذكاء الاصطناعي وعلوم البيانات</p>
+            <div class="tags">
+                <span>AI</span>
+                <span>ML</span>
+                <span>Data</span>
+            </div>
+        </div>
+        <div class="trainer-card" data-category="kids">
+           <img src="image.1/Gemini_Generated_Image_pciv9npciv9npciv.png" alt="">
+           <h3>م. علي محمود</h3>
+           <span class="role">Kids Programming Instructor</span>
+           <p>تدريب البرمجة للأطفال بأسلوب مبسط وتفاعلي</p>
+            <div class="tags">
+              <span>Scratch</span>
+             <span>Logic</span>
+             <span>Basics</span>
+           </div>
+       </div>
+       <div class="trainer-card" data-category="Frontend">
+          <img src="image.1/Gemini_Generated_Image_cd9aj8cd9aj8cd9a.png" alt="">
+           <h3>م. صابر</h3>
+          <span class="role">Lecturer at Ain Shams University</span>
+          <p>محاضر فى جامعه عين شمس فى البرمجه </p>
+          <div class="tags">
+               <span>Professional</span>
+               <span>Communicative</span>
+               <span>Fair</span>
+           </div>
+       </div>
+       <div class="trainer-card" data-category="Frontend">
+           <img src="image.1/Gemini_Generated_Image_gbd7bjgbd7bjgbd7 (1).png" alt="">
+           <h3>م. علي محمود</h3>
+           <span class="role">Senior Frontend Developer</span>
+           <p>خبرة 8 سنوات في تطوير واجهات المستخدم و React</p>
+           <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+              <span>React</span>
+           </div>
+        </div>
+    <!-- </div>     -->
+</section>
+ <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+ <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/all.min.js"></script>
+ <script src="main.js"></script>
+</body>
+</html>
